@@ -1,0 +1,7 @@
+node_modules
+dist
+.vite-ssg-temp
+.vscode
+cypress
+aaa.ts
+dist.zip

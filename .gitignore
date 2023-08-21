@@ -1,0 +1,16 @@
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+cypress/downloads
+cypress/videos
+aaa.ts
+src/pages/news.vue
+src/pages/news-details-*.vue
+dist.zip
+website.conf
