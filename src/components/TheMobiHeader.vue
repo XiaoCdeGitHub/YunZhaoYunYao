@@ -51,7 +51,7 @@ function liClick(index: number): void {
 
   <Drawer :title="null" :placement="'top'" :visible="visible" :bodyStyle="{ padding: 0, height: '100%' }" @close="onClose"
     ClassName="my-drawer" class="mobi-header">
-    <ul class="f-c-s-s page-items">
+    <ul class="page-items">
       <a :class="{ active: index === currentIndex }" class="page-item" @click="liClick(index)"
         v-for="(item, index) in navItems" :href="item.href">
         {{ item.text }}
